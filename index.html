@@ -1,13 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>NLW Copa | Calendar</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <header>
+        <img src="/src/assets/logo.svg" alt="Logo da NLW" />
+      </header>
+
+      <main class="cards">
+        <!-- Card -->
+        <div class="card">
+          <h2>24/11 <span>quinta</span></h2>
+
+          <ul>
+            <li>
+              <img src="/src/assets/icon-brazil.svg" alt="Bandeira do Brasil" />
+              <strong>16:00</strong>
+              <img src="/src/assets/icon-serbia.svg" alt="Bandeira da Sérvia" />
+            </li>
+          </ul>
+        </div>
+        <!-- Card -->
+      </main>
+    </div>
+
+    <!-- Scripts -->
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
