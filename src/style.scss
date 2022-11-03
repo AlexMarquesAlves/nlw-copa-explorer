@@ -27,7 +27,7 @@ body {
   background-color: #121214;
   background-image: url(./assets/bg.svg);
   background-position-x: center;
-  background-position-y: 55.6%;
+  background-position-y: -715px;
 
   #app {
     width: fit-content;
@@ -35,9 +35,14 @@ body {
 
     header {
       margin-bottom: 63px;
+      text-align: center;
     }
 
     main {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+
       .card {
         padding: 32px 23px;
         text-align: center;
